@@ -38,5 +38,11 @@ The for screw terminals ST1 to ST4 are used to control colored leds placed in di
 brightness of controllable LEDs.
 
 ## Some preliminary conclusions
-
+The design is a very capable low frequency flasher, but more attention should be paid to:
+- Using JST cable or ribbon connector to link the leds to the control board
+- Minimising accidental contact to the inverting terminal of the op amp
+- Better placement of overall power switch
+- Regulating the positive voltage rail to a stable and manageable value
+- Batteries with bigger capacity and smaller voltage should be used, 9V batteries have too low of a capacity
+- Better current sharing for the leds
 ## Bibliography
