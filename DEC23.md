@@ -3,6 +3,17 @@
 ## Purpose
 I own LEGO set number #7938, motorized modern passanger train and wanted to add festive lighting to its passanger compartments.
 
+This is how the train looks from the outside, spot the clear lack of wintery decorations:
+
+<br>
+  <p align="center">
+    <img height = "550" src = "ZUG.jpg">
+    <br>
+    <br>
+    <a><b>Two-peak current source input-output characteristic</b></a>
+</p>
+<br>
+
 In order to achieve my stated goals I designed, assembled and tested a simple control board on perfoboard in the two days before Christmas.
 
 ## A bit of circuit theory
@@ -37,6 +48,7 @@ This is how the control boards look like at component level:
 The for screw terminals ST1 to ST4 are used to control colored leds placed in different corners of the train wagon. To connect the LEDs to the control board I used male to female Dupont cables. ST5 provides access to the positive rail of the circuit to increase the number and 
 brightness of controllable LEDs.
 
+The circuit has a small problem with current sharing, output current is controlled by R7 and is therefore quite small. With more LEDs the current driving each led decreases and the brightness is also reduced.
 ## Some preliminary conclusions
 The design is a very capable low frequency flasher, but more attention should be paid to:
 - Using JST cable or ribbon connector to link the leds to the control board
