@@ -10,7 +10,7 @@ This is how the train looks from the outside, spot the clear lack of wintery dec
     <img height = "550" src = "ZUG.jpg">
     <br>
     <br>
-    <a><b>Two-peak current source input-output characteristic</b></a>
+    <a><b>LEGO train to be fitted with LED fixtures</b></a>
 </p>
 <br>
 
@@ -49,6 +49,9 @@ The for screw terminals ST1 to ST4 are used to control colored leds placed in di
 brightness of controllable LEDs.
 
 The circuit has a small problem with current sharing, output current is controlled by R7 and is therefore quite small. With more LEDs the current driving each led decreases and the brightness is also reduced.
+
+## Circuit performance and finished control board
+
 ## Some preliminary conclusions
 The design is a very capable low frequency flasher, but more attention should be paid to:
 - Using JST cable or ribbon connector to link the leds to the control board
@@ -58,3 +61,5 @@ The design is a very capable low frequency flasher, but more attention should be
 - Batteries with bigger capacity and smaller voltage should be used, 9V batteries have too low of a capacity
 - Better current sharing for the leds
 ## Bibliography
+- <a href="https://www.ti.com/lit/ab/snoa998/snoa998.pdf?ts=1704275294118&ref_url=https%253A%252F%252Fwww.google.ru%252F">Relaxation oscillator circuit design note from TI</a>
+- <a href="https://www.allaboutcircuits.com/technical-articles/op-amp-and-transistor-analog-square-wave-oscillator-design/">Op Amp and Transistor-based Analog Square Wave Generator Design</a>
