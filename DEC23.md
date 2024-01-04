@@ -45,12 +45,47 @@ This is how the control boards look like at component level:
 </p>
 <br>
 
-The for screw terminals ST1 to ST4 are used to control colored leds placed in different corners of the train wagon. To connect the LEDs to the control board I used male to female Dupont cables. ST5 provides access to the positive rail of the circuit to increase the number and 
+The four screw terminals ST1 to ST4 are used to control colored leds placed in different corners of the train wagon. To connect the LEDs to the control board I used male to female Dupont cables. ST5 provides access to the positive rail of the circuit to increase the number and 
 brightness of controllable LEDs.
 
 The circuit has a small problem with current sharing, output current is controlled by R7 and is therefore quite small. With more LEDs the current driving each led decreases and the brightness is also reduced.
 
 ## Circuit performance and finished control board
+
+This is how the final circuit looks like when built on perfoboard:
+
+<br>
+  <p align="center">
+    <img height = "550" src = "BRD.jpg">
+    <br>
+    <br>
+    <a><b>Implemented circuit on perfoboard</b></a>
+</p>
+<br>
+
+This is how the control board and leds were installed in the lego wagon:
+
+<br>
+  <p align="center">
+    <img height = "550" src = "TWINIV.jpg">
+    <br>
+    <br>
+    <a><b>Wagon decked in festive lights</b></a>
+</p>
+<br>
+
+And below we can see the output waveform of the led flasher:
+
+<br>
+  <p align="center">
+    <img height = "550" src = "TWINIV.jpg">
+    <br>
+    <br>
+    <a><b>Led flasher output waveform vizualised on oscilloscope</b></a>
+</p>
+<br>
+
+Pretty satisfied with the results. 
 
 ## Some preliminary conclusions
 The design is a very capable low frequency flasher, but more attention should be paid to:
