@@ -52,33 +52,22 @@ The circuit has a small problem with current sharing, output current is controll
 
 ## Circuit performance and finished control board
 
-This is how the final circuit looks like when built on perfoboard:
-
-<br>
-  <p align="center">
-    <img height = "550" src = "BRD.jpg">
-    <br>
-    <br>
-    <a><b>Implemented circuit on perfoboard</b></a>
-</p>
-<br>
-
 This is how the control board and leds were installed in the lego wagon:
 
 <br>
   <p align="center">
-    <img height = "550" src = "TWINIV.jpg">
+    <img height = "550" src = "ZUG_ALIGHT.jpeg">
     <br>
     <br>
     <a><b>Wagon decked in festive lights</b></a>
 </p>
 <br>
 
-And below we can see the output waveform of the led flasher:
+In the photo collage below we observe different frequencies that the circuit can flash LEDs at, as well as the rise time of the square signal that drives said LEDs:
 
 <br>
   <p align="center">
-    <img height = "550" src = "TWINIV.jpg">
+    <img height = "550" src = "COMBO.jpg">
     <br>
     <br>
     <a><b>Led flasher output waveform vizualised on oscilloscope</b></a>
