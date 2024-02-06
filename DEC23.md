@@ -30,7 +30,7 @@ This is how the oscillator looks like:
 </p>
 <br>
 
-The oscillator produces a square wave signal with frequency determined by the series RC network formed by R1 and C, according to the formula $f_{osc} = \frac{1}{1.38 \cdot R_{1}\cdot C}$. A proper derivation of the timing formula is provided <a href="https://www.ti.com/lit/ab/snoa998/snoa998.pdf?ts=1704275294118&ref_url=https%253A%252F%252Fwww.google.ru%252F">here .</a>
+The oscillator produces a square wave signal with frequency determined by the series RC network formed by R1 and C, according to the formula $f_{osc} = \frac{1}{1.38 \cdot R_{1}\cdot C}$. A proper derivation of the timing formula is provided <a href="https://www.ti.com/lit/ab/snoa998/snoa998.pdf?ts=1704275294118&ref_url=https%253A%252F%252Fwww.google.ru%252F">here .</a> Another derivation is also provided <a href="https://www.allaboutcircuits.com/technical-articles/exactly-how-schmitt-trigger-oscillators-work/">here</a>
 
 This circuit is useful at both higher and lower frequencies. For my uses a 50K potentiometer and a 10uF capacitor sufficed.
 
